@@ -101,4 +101,4 @@ def update_output_div(variable, variable_value):
         return "Error en la consulta", "Error en la consulta"
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8040)
+    app.run(debug=True, host='0.0.0.0', port=8040)
